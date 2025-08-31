@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 15px;
+  align-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero {
+  background: url('./images/hac\ 1.jpg') center/cover no-repeat;
+  color: white;
+  text-align: justify;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 20px 8px;
+}
+
+.project-card {
+  background: #aaa6a6;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+.social-links a {
+  color: #333;
+  font-size: 28px;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* Default hover color (LinkedIn blue) */
+}
+
+/* Specific hover colors */
+.social-links a:first-child:hover {
+  color: #333; /* GitHub */
+}
+
+.social-links a:nth-child(3):hover {
+  color: #d14836; /* Gmail red */
+}
